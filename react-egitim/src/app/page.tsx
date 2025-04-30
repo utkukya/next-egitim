@@ -5,6 +5,8 @@ import Login from "./login";
 import Header from "./useMemo/Header";
 import useLog from "./hooks/useLog";
 import { PersonContext } from "./context/Person";
+// import Controlled from "./components/controlled";
+// import UnControlled from "./components/uncontrolled";
 
 function Page() {
   const isHas: boolean = true;
@@ -38,6 +40,11 @@ function Page() {
         <input />
         <input />
       </Login>
+
+      {/* <Controlled />
+      <UnControlled />
+      <UnControlled /> */}
+
     </>
   );
   // birden fazla children varsa type içerisinde React.JSX.Element[] dizi olarak tanımlanır.
