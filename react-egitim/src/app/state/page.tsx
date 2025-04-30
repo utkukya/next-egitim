@@ -1,7 +1,7 @@
 'use client' // burada useState çalıştıracaksak componenti client olarak işaretlememiz gerekiyor.
 
 import { useEffect, useState } from "react";
-import Login from "./login";
+import Login from "./Login"
 
 type Person = {
     name: string;
